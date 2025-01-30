@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SnakeX</title> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div id="startMenu">
+            <h1>Snake Game</h1>
+            <button id="startBtn">Start Game</button>
+            <!-- <button id="resumeBtn">Settings</button> -->
+        </div>
+        <div id="score">SCORE : </div>
+        <!-- <div id="menuIcon"></div> -->
+        <div class="board grid">
+            <script>
+                for (let row = 0; row < 15; row++) {
+                    for (let col = 0; col < 17; col++) {
+                        document.write(`<div class="cells" id="cell-${row}-${col}"></div>`);
+                    }
+                }
+            </script>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
