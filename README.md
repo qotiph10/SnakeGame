@@ -15,7 +15,7 @@ The Snake game is a timeless classic where the player controls a growing snake, 
 - **TypeScript**: The game logic is written in TypeScript for type safety and better maintainability.
 - **HTML/CSS**: The user interface is built using HTML and CSS for a clean and responsive design.
 
-## How to play it ?
-- Clone the repository
-- run main.html file
+## How to play it?
+1. Clone the repository
+2. run main.html file
 - or Open the link 🔗
